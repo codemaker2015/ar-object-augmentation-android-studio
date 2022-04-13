@@ -25,8 +25,6 @@ public class MainActivity extends AppCompatActivity {
     private static final double MIN_OPENGL_VERSION = 3.0;
 
     ArFragment arFragment;
-    ModelRenderable lampPostRenderable;
-    private Uri selectedObject;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
